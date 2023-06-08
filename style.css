@@ -1,0 +1,28 @@
+/* Freedom Desktop CSS */
+/* Copyright © 2023 Freedom Desktop */
+
+/* Background and content */
+body { background: url(images/bkgd/sunflow.png) fixed top left; background-color: rgb(0,0,128); background-repeat: repeat; }
+.main { border: 24px solid;  border-image: url(images/border.png) 24 stretch; padding: 4px; border-image-slice: 24 fill;  max-width: 64em; margin: auto; }
+
+/* Fonts */
+.b { font: bold; }
+.i { font: italic; }
+.u { font: underline; }
+
+p { font: 10pt "Microsoft Sans-Serif", sans-serif; color: black; text-indent: 5px; padding:4px; }
+code { border: 1px solid;  border-image: url(images/code-border.png) 1 repeat; font: font-weight: 75; 8pt consolas, monospace; border-style: solid; border-color: teal; color: black; text-indent: 8px; padding: 4px; background-image: url(images/code.png); background-color: rgb(255,255,255); overflow-wrap: break-word; }
+ul { font: 10pt "Microsoft Sans-Serif", sans-serif; color: black; padding: 4px; padding-left:50px; }
+
+h1 { font: 36px "Microsoft Sans-Serif", sans-serif; color: black; font-weight: bold; }
+h2 { font: 24px "Microsoft Sans-Serif", sans-serif; color: black; font-weight: bold; }
+h3 { font: 16px "Microsoft Sans-Serif", sans-serif; color: black; font-weight: bold; }
+h4 { font: 10pt "Microsoft Sans-Serif", sans-serif; color: black; font-weight: bold; }
+hh { font: 16px "Microsoft Sans-Serif", sans-serif; color: white; }
+ht { font: 10pt "Microsoft Sans-Serif", sans-serif; color: white; }
+
+p.ex { font: italic bold 9pt/30px Georgia, serif; }
+
+/* Navigation */
+btxt { font: 8px "Microsoft Sans-Serif", sans-serif; color: white; cursor: default; }
+.nbtn { cursor: default; }
