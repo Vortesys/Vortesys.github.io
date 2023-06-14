@@ -2,7 +2,7 @@
 /* Copyright © 2023 Freedom Desktop */
 
 /* Background and content */
-body { background-color: rgb(255,255,255); }
+body { background-color: white;  display: inline-block; }
 
 /* Fonts */
 p { font: 10pt "Microsoft Sans-Serif", sans-serif; color: black; padding: 12px; }
